@@ -1,0 +1,118 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{ 
+    align-items: center;
+    border: 1px solid hsl(215, 32%, 27%);
+    border-radius: 25px;
+    background-color: hsl(216, 50%, 16%);
+    width: 290px; 
+    padding:20px;
+}
+
+.eth-container {
+    position: relative;
+    max-width: 280px;
+    max-height: 280px;
+}
+.ethirium {
+    display: block;
+    position:absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    height: 100%;
+    width: 100%;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
+}
+
+.view {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%)
+}
+.eth-container:hover .ethirium {
+    opacity:0.8;
+}
+.eth-container:hover .view {
+    opacity: 1;
+    z-index: 2;
+}
+
+img.ethirieum {
+    border-radius: 25px;
+}
+
+.eqrm {  
+    margin: 10px; 
+}
+a.equilibrium {
+    text-align: left;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+a.equilibrium:hover {
+    color:hsl(178, 100%, 50%)
+}
+.moto { 
+    color: grey;
+    padding-left: 10px;
+    width: 300px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.eth {
+    display: inline-block;
+    direction: rtl;
+    padding-left: 10px;
+}
+
+p.eth {
+    color: hsl(178, 100%, 50%);
+}
+.days {
+    display: inline-block;
+    padding-right: 10px; 
+    color: grey;
+}
+.author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid grey;
+    padding-top: 10px;
+}
+.avatar {
+    border: 2px solid white;
+    border-radius: 50%; /*how to create a circle border)*/
+    height: 40px;
+}
+p.author {
+    border: none;
+    color: grey;
+    margin-left: 10px;
+    word-spacing: 3px;
+}
+a.jules {
+    margin-left: 3px;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+}
+a.jules:hover {
+    color: hsl(178, 100%, 50%)
+
+}
