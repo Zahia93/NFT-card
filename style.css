@@ -42,10 +42,6 @@ body{
 .eth-container:hover .ethirium {
     opacity:0.8;
 }
-.eth-container:hover .view {
-    opacity: 1;
-    z-index: 2;
-}
 
 img.ethirieum {
     border-radius: 25px;
