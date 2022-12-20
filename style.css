@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Outfit', sans-serif;
     background-color: hsl(217, 54%, 11%);
@@ -5,9 +6,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
 }
 .container{ 
-    align-items: center;
     border: 1px solid hsl(215, 32%, 27%);
     border-radius: 25px;
     background-color: hsl(216, 50%, 16%);
@@ -50,16 +53,17 @@ img.ethirieum {
 .eqrm {  
     margin: 10px; 
 }
-a.equilibrium {
+h1.equilibrium {
     text-align: left;
     font-size: 18px;
     text-decoration: none;
     color: white;
     font-weight: 600;
-    cursor: pointer;
+    
 }
-a.equilibrium:hover {
-    color:hsl(178, 100%, 50%)
+h1.equilibrium:hover {
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 .moto { 
     color: grey;
